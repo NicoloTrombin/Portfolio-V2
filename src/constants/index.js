@@ -11,6 +11,7 @@ import {
     reactjs,
     tailwind,
     git,
+    nextjs,
     figma,
     docker,
     labitech,
@@ -18,8 +19,8 @@ import {
     pccube,
     wfdesign,
     portfoliov1,
-    universogames,
     threejs,
+    disneyclone,
   } from "../assets";
   
   export const navLinks = [
@@ -88,6 +89,10 @@ import {
     {
       name: "Three JS",
       icon: threejs,
+    },
+    {
+      name: "Next JS",
+      icon: nextjs,
     },
     {
       name: "git",
@@ -174,6 +179,28 @@ import {
   
   const projects = [
     {
+      name: "Disney Clone",
+      description:
+        "Search for your favorite movies and explore different genres. The app offers a user-friendly experience, allowing you to easily navigate and discover the magic of Disney. Whether it's classic animated films, beloved Pixar movies, or the latest Marvel adventures.",
+      tags: [
+        {
+          name: "next.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "microsoft azure",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: disneyclone,
+      source_code_link: "https://github.com/NicoloTrombin/disney-clone",
+      live_preview: "https://disneyclone-nicolotrombin.vercel.app/"
+    },
+    {
       name: "WF Design + Build",
       description:
         "Discover the world of WF Design + Build through our interactive web application, showcasing theirs cutting-edge projects, rich company history, and commitment to excellence in construction and design since 2005.",
@@ -216,28 +243,6 @@ import {
       image: portfoliov1,
       source_code_link: "https://github.com/NicoloTrombin/Portfolio",
       live_preview: "https://portfolio-nicolotrombin1.vercel.app"
-    },
-    {
-      name: "Universo Games",
-      description:
-        "Universo Games is a versatile social bookmarking and news aggregator platform where users can submit text, images, videos, or links. Additionally, they have the ability to vote up or down on content, which determinate its visibility.",
-      tags: [
-        {
-          name: "typescript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "html",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: universogames,
-      source_code_link: "https://github.com/NicoloTrombin/UniversoGames-Gr2-Sito",
-      live_preview: ""
     },
   ];
   

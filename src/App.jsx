@@ -1,10 +1,22 @@
 import { BrowserRouter } from "react-router-dom";
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Preloader } from './components';
+import { useState, useEffect } from "react";
 
 const App = () => {
+  const [isModelLoading, setIsModelLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsModelLoading(false);
+    }, 1000);
+    }, []);
+
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-primary">
+       {isModelLoading ? <Preloader /> : null}
+
+      {!isModelLoading && (
+        <div className="relative z-0 bg-primary">
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Navbar />
             <Hero />
@@ -18,7 +30,9 @@ const App = () => {
             <Contact />
             <StarsCanvas />
           </div>
-      </div>
+        </div>
+
+      )}
     </BrowserRouter>
   )
 }

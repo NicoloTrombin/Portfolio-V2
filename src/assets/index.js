@@ -21,7 +21,8 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
+import nextjs from "./tech/nextjs.svg";
 
 import labitech from "./company/labitech.png";
 import pccube from "./company/pccube.png";
@@ -30,6 +31,7 @@ import openmarket from "./company/openmarket.png";
 import wfdesign from "./wfdesign.png";
 import portfoliov1 from "./portfoliov1.png";
 import universogames from "./universogames.png";
+import disneyclone from "./disneyclone.png";
 
 export {
   logo,
@@ -55,10 +57,12 @@ export {
   tailwind,
   typescript,
   threejs,
+  nextjs,
   labitech,
   pccube,
   openmarket,
   wfdesign,
   portfoliov1,
   universogames,
+  disneyclone
 };
