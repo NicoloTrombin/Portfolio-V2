@@ -1,14 +1,14 @@
 import { BrowserRouter } from "react-router-dom";
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Preloader } from './components';
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const App = () => {
   const [isModelLoading, setIsModelLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => {
-      setIsModelLoading(false);
-    }, 1000);
+      setTimeout(() => {
+        setIsModelLoading(false);
+      }, 2000);
     }, []);
 
   return (

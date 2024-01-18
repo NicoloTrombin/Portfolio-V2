@@ -201,6 +201,28 @@ import {
       live_preview: "https://disneyclone-nicolotrombin.vercel.app/"
     },
     {
+      name: "Portfolio V1",
+      description:
+      "The first iteration of my personal portfolio, the website featured a clean and modern design, with smooth transitions and animations. I utilized Angular to build the functionality of the site and HTML/CSS to structure and style the content.",
+      tags: [
+        {
+          name: "angular",
+          color: "green-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfoliov1,
+      source_code_link: "https://github.com/NicoloTrombin/Portfolio",
+      live_preview: "https://portfolio-nicolotrombin1.vercel.app"
+    },
+    {
       name: "WF Design + Build",
       description:
         "Discover the world of WF Design + Build through our interactive web application, showcasing theirs cutting-edge projects, rich company history, and commitment to excellence in construction and design since 2005.",
@@ -221,28 +243,6 @@ import {
       image: wfdesign,
       source_code_link: "https://github.com/NicoloTrombin/Design-Build",
       live_preview: "https://wf-design.vercel.app"
-    },
-    {
-      name: "Portfolio V1",
-      description:
-        "The first iteration of my personal portfolio, the website featured a clean and modern design, with smooth transitions and animations. I utilized Angular to build the functionality of the site and HTML/CSS to structure and style the content.",
-      tags: [
-        {
-          name: "angular",
-          color: "green-text-gradient",
-        },
-        {
-          name: "typescript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: portfoliov1,
-      source_code_link: "https://github.com/NicoloTrombin/Portfolio",
-      live_preview: "https://portfolio-nicolotrombin1.vercel.app"
     },
   ];
   
