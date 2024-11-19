@@ -42,7 +42,7 @@ const About = () => {
                           max-w-3xl leading-[30px]">
        <p className="mb-2">I'm a Software Developer with a flair for Frontend sorcery and Graphic Design wizardry. I sprinkle pixels, slay bugs, and turn caffeine into code. <br /></p>
         When I'm not busy wrestling with <strong>&lt;code&gt;</strong>tags<strong>&lt;/code&gt;</strong> and <strong>&lt;style&gt;</strong>Sheets<strong>&lt;/style&gt;</strong>, I'm capturing the world through my trusty lens.
-        Photography is my jam - I can make a rusty doorknob look like a rockstar. Oh, and did I mention I'm a sports enthusiast? I run like a cheetah on fire (or at least I like to think so). <br />
+        Photography is my jam, I can make a rusty doorknob look like a rockstar. Oh, and did I mention I'm a sports enthusiast? I run like a cheetah on fire (or at least I like to think so). <br />
         <p className="mt-2">I'm all about creating kick-ass websites and spreading good vibes. If you're as passionate about tech as I am, and you don't mind a dash of glitter in your code, let's team up and make some digital magic.</p>
       </motion.p>
 

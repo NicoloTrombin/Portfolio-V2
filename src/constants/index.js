@@ -12,11 +12,14 @@ import {
     tailwind,
     git,
     nextjs,
+    java,
     figma,
-    docker,
     labitech,
+    agosti,
     openmarket,
     pccube,
+    adamo,
+    nicolaus,
     wfdesign,
     portfoliov1,
     threejs,
@@ -95,6 +98,10 @@ import {
       icon: nextjs,
     },
     {
+      name: "java",
+      icon: java,
+    },
+    {
       name: "git",
       icon: git,
     },
@@ -102,15 +109,11 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "Web Developer",
+      title: "Developer",
       company_name: "Open Market",
       icon: openmarket,
       iconBg: "#E6DEDD",
@@ -123,7 +126,7 @@ import {
       ],
     },
     {
-      title: "Angular Native Developer",
+      title: "Java & Angular Native Developer",
       company_name: "Pc Cube",
       icon: pccube,
       iconBg: "#E6DEDD",
@@ -136,7 +139,7 @@ import {
       ],
     },
     {
-      title: "Full-Stack Developer",
+      title: "Software Developer",
       company_name: "Labitech",
       icon: labitech,
       iconBg: "#E6DEDD",
@@ -157,7 +160,7 @@ import {
       name: "Andrea Agosti",
       designation: "CEO",
       company: "Labitech",
-      image: "https://media.licdn.com/dms/image/C4E03AQHXyvCuyre63w/profile-displayphoto-shrink_800_800/0/1609955125804?e=1707350400&v=beta&t=k3uM_ElY8Hj_by792jaccGUaBzxDbwVVRm3CF6Iesoo",
+      image: agosti,
     },
     {
       testimonial:
@@ -165,7 +168,7 @@ import {
       name: "Piergiorgio Adamo",
       designation: "Web Developer",
       company: "Pc Cube",
-      image: "https://media.licdn.com/dms/image/C4D03AQGd-nxePAFFmA/profile-displayphoto-shrink_800_800/0/1651076371171?e=1706745600&v=beta&t=Kam9mbJPcrIqdGlH62cYkqXrHvZKlUWKnBSamm-u1GQ",
+      image: adamo,
     },
     {
       testimonial:
@@ -173,7 +176,7 @@ import {
       name: "Pietro Nicolaus",
       designation: "Chief Delivery Officer",
       company: "Pc Cube",
-      image: "https://media.licdn.com/dms/image/C4E03AQHfa4Vu3xW_9A/profile-displayphoto-shrink_800_800/0/1517744422326?e=1706745600&v=beta&t=JKIIQEUKu8zsB7IRJTx3uQtsJP4jG5nm36CIaOWLepw",
+      image: nicolaus,
     },
   ];
   
@@ -181,7 +184,7 @@ import {
     {
       name: "Disney Clone",
       description:
-        "Search for your favorite movies and explore different genres. The app offers a user-friendly experience, allowing you to easily navigate and discover the magic of Disney. Whether it's classic animated films, beloved Pixar movies, or the latest Marvel adventures.",
+        "Developed an intuitive app for exploring and discovering Disney's rich collection of movies. Featuring a user-friendly interface, the app allows seamless navigation through various genres, from timeless animated classics to Pixar favorites and the latest Marvel blockbusters.",
       tags: [
         {
           name: "next.js",
@@ -203,7 +206,7 @@ import {
     {
       name: "Portfolio V1",
       description:
-      "The first iteration of my personal portfolio, the website featured a clean and modern design, with smooth transitions and animations. I utilized Angular to build the functionality of the site and HTML/CSS to structure and style the content.",
+      "Crafted the first iteration of my personal portfolio with a clean, modern design enhanced by smooth transitions and engaging animations. Built using Angular for dynamic functionality and HTML/CSS for precise structure and styling, delivering a polished and visually appealing user experience.",
       tags: [
         {
           name: "angular",
@@ -225,18 +228,18 @@ import {
     {
       name: "WF Design + Build",
       description:
-        "Discover the world of WF Design + Build through our interactive web application, showcasing theirs cutting-edge projects, rich company history, and commitment to excellence in construction and design since 2005.",
+      "A sleek, user-friendly website showcasing a home renovation service, emphasizing modern aesthetics, seamless navigation, and detailed service presentations to inform and engage potential clients.",
       tags: [
         {
-          name: "angular",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
-          name: "typescript",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "html",
+          name: "scss",
           color: "pink-text-gradient",
         },
       ],
